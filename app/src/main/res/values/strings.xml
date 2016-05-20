@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Notebook</string>
+
+    <!--Main menu titles-->
+    <string name="action_add_note">Add Note</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Fragments title strings -->
+    <string name="view_fragment_title">View Note</string>
+    <string name="edit_fragment_title">Edit Note</string>
+    <string name="create_fragment_title">Create Note</string>
+    <string name="preferences_title">Application Settings</string>
+
+    <!--Main list click context menu-->
+    <string name="edit_menu">Edit</string>
+    <string name="delete_menu">Delete</string>
+
+    <!--Fragment widget string-->
+    <string name="save_note_button">Save Note</string>
+</resources>

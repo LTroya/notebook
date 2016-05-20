@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_note_view"
+    android:background="#f9f9f9"
+    android:paddingLeft="12dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:id="@+id/viewNoteIcon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:contentDescription="Category Image"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/noteScrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/viewNoteIcon"
+        android:layout_alignBottom="@+id/viewNoteIcon">
+
+        <TextView
+            android:id="@+id/viewNoteTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note title"
+            android:textAppearance="?android:textAppearanceLarge" />
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noteScrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/viewNoteBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New text"
+            android:textSize="18sp"
+            android:textColor="#000000" />
+    </ScrollView>
+
+</RelativeLayout>
